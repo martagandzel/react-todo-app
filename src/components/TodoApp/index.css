@@ -1,0 +1,81 @@
+.todoApp {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 8rem;
+}
+
+.todoApp h1 {
+    margin-bottom: 1rem;
+}
+
+.todoApp p {
+    font-size: 1.25rem;
+}
+
+.todoApp input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .5rem .75rem;
+    margin-bottom: 1.5rem;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid darkgrey;
+}
+
+.todoApp input:focus,
+.todoApp input:focus-visible {
+    outline: none;
+    border: 1px solid darkgrey;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.task-list {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 2rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
+
+.task-list li {
+    padding: .25rem;
+}
+
+.task-list li span {
+    cursor: pointer;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+button {
+    font-family: inherit;
+    margin-top: 2rem;
+    padding: .75rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #333;
+    color: #ddd;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+.material-symbols-outlined {
+    font-size: 1.25rem;
+    padding-left: .7rem;
+    vertical-align: text-top;
+    cursor: pointer;
+}
