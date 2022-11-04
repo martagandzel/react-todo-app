@@ -10,14 +10,11 @@
     margin-bottom: 1rem;
 }
 
-.todoApp p {
-    font-size: 1.25rem;
-}
-
 .todoApp input {
     font-family: inherit;
     font-size: 1rem;
     padding: .5rem .75rem;
+    margin-left: 1rem;
     margin-bottom: 1.5rem;
     background-color: transparent;
     border: none;

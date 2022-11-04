@@ -42,9 +42,9 @@ function TodoApp() {
     return (
         <section className="todoApp">
             <h1>Organize your day</h1>
-            <p>Add a task:</p>
             <form onSubmit={addTask}>
                 <label htmlFor="task">
+                    Add a task:
                     <input
                         type="text"
                         placeholder="type your task"
